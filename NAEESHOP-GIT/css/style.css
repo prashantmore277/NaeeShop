@@ -1,4 +1,54 @@
-*{
-    background-color: black;
+:root {
+    --purple: #814096;
+    --pink: #F83292;
+    --gradient: linear-gradient(90deg, var(--purple), var(--pink));
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    background-color: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    padding: 0.3rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo {
+    width: 111px;
+    border-radius: 0.5rem;
+}
+
+header .navbar a {
+    text-decoration: none;
+    color: rgb(0, 255, 115);
+    font-size: 0.9rem;
+    margin-left: 2rem;
+    padding: 0.8rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+header .navbar a:hover {
+    color: grey;
+    border-radius: 0.5rem;
+    background-color: rgba(170, 166, 166, 0.2);
+    transition: linear 1s all;
+}
+
+.description {
+    position: relative;
+}
