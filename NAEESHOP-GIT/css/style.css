@@ -1,57 +1,170 @@
-                    :root {
-                       --purple: #814096;
-                       --pink: #F83292;
-                       --gradient: linear-gradient(90deg, var(--purple), var(--pink));
-                   }
-                   
-                   * {
-                       padding: 0;
-                       margin: 0;
-                       width: auto;
-                       height: auto;
-                       box-sizing: border-box;
-                       background-color: none;
-                   }
-                   
-                   header {
-                       position: sticky;
-                       top: 0;
-                       left: 0;
-                       width: 100%;
-                       background: #fff;
-                       box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-                       padding: 0.3rem 9%;
-                       display: flex;
-                       align-items: center;
-                       justify-content: space-between;
-                       z-index: 1000;
-                   }
-                   
-                   .logo {
-                       width: 111px;
-                       border-radius: 0.5rem;
-                   }
-                   
-                   header .navbar a {
-                       text-decoration: none;
-                       color: rgb(0, 255, 115);
-                       font-size: 0.9rem;
-                       margin-left: 2rem;
-                       padding: 0.8rem;
-                       font-weight: bold;
-                       /* font-variant: all-petite-caps; */
-                   }
-                   /* #nav-link-home {
-                      font-size: 1.2rem;
-                  } */
-                   
-                   header .navbar a:hover {
-                       color: grey;
-                       border-radius: 0.5rem;
-                       background-color: rgba(170, 166, 166, 0.2);
-                       transition: linear 1s all;
-                   }
-                   
-                   .description {
-                       position: relative;
-                   }
+:root {
+    --grey: rgba(170, 166, 166, 0.2);
+    --green: rgb(0, 255, 115);
+    --gradient: linear-gradient(90deg, var(--purple), var(--pink));
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    background-color: none;
+    scroll-behavior: smooth;
+}
+
+
+/*Header Styling Starts  */
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    padding: 0.3rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo {
+    width: 111px;
+    border-radius: 0.5rem;
+}
+
+header .navbar a {
+    text-decoration: none;
+    color: var(--green);
+    font-size: 0.9rem;
+    /* margin-left: 2rem;*/
+    padding: 0.8rem;
+    font-weight: bold;
+}
+
+header .navbar a:hover {
+    color: grey;
+    border-radius: 0.5rem;
+    background-color: var(--grey);
+    transition: linear 1s all;
+}
+
+header .navbar a::before {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: auto;
+    bottom: 25%;
+    background-color: #61dafb;
+    position: absolute;
+    margin-top: 2rem;
+    /* margin: 0 0 0 10%; */
+}
+
+
+/* header .navbar a:hover::before {
+    width: 3vw;
+    transition: linear 1s all;
+} */
+
+
+/* header .navbar .nav-links a {
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+nav .fa {
+    display: none;
+}
+
+
+/*Header Styling End*/
+
+
+/* .description styling starts */
+
+.description {
+    position: relative;
+    margin: 0 2rem 0 2rem;
+}
+
+.dimension {
+    margin: 2rem 0.5rem auto 0rem;
+    border-radius: 0.9rem;
+    height: 560px;
+}
+
+.signup {
+    position: sticky;
+    top: 80%;
+    left: 15%;
+    transform: translate(-46%, 81%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: rgb(228, 56, 25); */
+    background: linear-gradient(135deg, #6da2ec 20%, #00d2ff 51%, #00d2ff 10%);
+    font-size: 1rem;
+    padding: 0.3rem 1.5rem;
+    font-weight: bolder;
+    z-index: 100;
+    border-radius: 1.5rem;
+    border: 0.2rem outset rgba(236, 255, 236, 0.493);
+}
+
+.signup:hover[type="button"] {
+    color: black;
+    background: linear-gradient(45deg, #00d2ff 30%, #3a7bd5 100%, #00d2ff 10%);
+    transition: linear 0.2s all;
+}
+
+.content {
+    position: relative;
+    font-size: 1rem;
+}
+
+
+/* ist card */
+
+.showcase {
+    height: 400px;
+    position: relative;
+}
+
+.showcase h1 {
+    font-size: 2.5em;
+    padding-top: 1em;
+}
+
+.showcase-form {
+    left: 9%;
+    top: 60px;
+    height: 350px;
+    width: 400px;
+    padding: 2.6em;
+    z-index: 1;
+}
+
+.showcase::before,
+.showcase::after {
+    content: "";
+    position: absolute;
+    height: 100px;
+    bottom: -80px;
+    right: 0;
+    left: 0;
+    /* background-color: #fff; */
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+}
+
+#card {
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+}
