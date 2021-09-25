@@ -1,0 +1,60 @@
+@media (min-width: 415px) and (max-width: 1439px) {
+    html {
+        font-size: 62.5%;
+    }
+    section.screen-play {
+        flex-direction: column;
+    }
+    section.screen-play div.common-movies div.movie-images div.carousel.slide div.carousel-inner div.carousel.slide.carousel-fade div.carousel-inner div.carousel-item {
+        flex-direction: row;
+    }
+    section.screen-play div#thrill-movies div.movie-images div.carousel.slide div.carousel-inner {
+        flex-direction: column;
+    }
+    section.screen-play div.common-movies {}
+    a.movie-posters {
+        overflow-x: hidden;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    nav.footer-nav {
+        flex-direction: column;
+    }
+    .menu {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .menu li {
+        margin: inherit;
+    }
+    div.copyrights {
+        text-align: justify;
+    }
+    div.copyrights p {
+        flex: auto;
+    }
+    div.downloads p a {
+        width: 100%;
+        height: auto;
+    }
+    div.downloads p a img {
+        flex-direction: column;
+    }
+    div.carousel-item {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    section.screen-play div.common-movies div.movie-images div.carousel.slide div.carousel-inner div.carousel.slide.carousel-fade div.carousel-inner div.carousel-item {
+        flex-direction: column;
+    }
+    section.screen-play div#thrill-movies div.movie-images div.carousel.slide div.carousel-inner {
+        flex-direction: row;
+    }
+    a.movie-posters {
+        margin: 0.2rem;
+    }
+}

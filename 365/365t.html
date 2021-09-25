@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- linking the style sheet -->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <!-- linking responsive website -->
+    <link rel="stylesheet" href="./style/phone.css">
+    <!-- linking the website icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- linking bootstrap -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <title>365 Entertainment</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <a href="#"><img src="./images/365-infinity-logo-icon-design-260nw-1425967037.jpg" alt="website logo" id="logo"></a>
+            <ul class="nav nav-tabs nav-stacked">
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Movies</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">TV Series</a>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Audio</a>
+                    </li>
+
+            </ul>
+            <div class="search">
+                <form class="search-group">
+                    <label for="genre">Genre
+                        <input list="tags" id="tag" name="tag" class="dropbtn">
+                        <datalist id="tags">
+                            <option value="Action" selected></option>
+                            <option value="Thrill"></option>
+                            <option value="Comedy"></option>
+                        </datalist></label>
+                    <input type="search" name="search" id="search" placeholder="Search your movie name" aria-label="Search" autocomplete="off" class="nav-tabs" value="">
+                    <button type="submit" class="btn btn-outline-light nav-tabs">Search</button>
+                </form>
+            </div>
+            <figure id="hamberger" class="nav-items"><img src="./images/icon-hamburger.svg" alt=""></figure>
+        </nav>
+    </header>
+
+    <!-- the header section ends here -->
+
+    <!-- the carousel section -->
+    <section id="slider">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/lagaan.jpg" class="d-block w-100" alt="image not supported">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/name-khan.jpg" class="d-block w-100" alt="image not supported">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/thackery.jpg" class="d-block w-100" alt="image not supported">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- the slider section ends here -->
+
+    <!-- the movie section starts here -->
+
+    <section id="movies" class="screen-play">
+        <div id="action-movies" class="common-movies">
+            <h3 class="heading">
+                Popular in Action
+            </h3>
+            <div class="movie-images">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" id="slide-1">
+                                    <a href="#" class="movie-posters"><img src="./images/thanaji.jpg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>
+                                            Thanaji
+                                        </figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/shield.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>
+                                            Shield
+                                        </figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/special ops.jpg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>
+                                            Special ops
+                                        </figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/the-falcon.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>
+                                            The Falcon
+                                        </figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/prisonbreak.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>
+                                            Prison Break
+                                        </figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/legend-hanuman.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>
+                                            legend hanuman
+                                        </figcaption>
+                                    </a>
+                                </div>
+                                <div class="carousel-item" id="slide-2">
+                                    <a href="#" class="movie-posters"><img src="./images/khudahaafiz.jpeg" alt="khudahaafiz" class="d-block">
+                                        <figcaption>
+                                            Khuda Haafiz
+                                        </figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/bhoomi.jpeg" alt="bhoomi" class="d-block">
+                                        <figcaption>
+                                            <figcaption>Bhoomi</figcaption>
+                                        </figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/ford-ferrari.jpeg" alt="ford-ferrari" class="d-block">
+                                        <figcaption>
+                                            Ford-ferrari
+                                        </figcaption>
+                                    </a>
+                                    <a href="#slider" class="movie-posters"><img src="./images/black-panther.jpeg" alt="black-panther" class="d-block">
+                                        <figcaption>
+                                            <figcaption>Black Panther</figcaption>
+                                        </figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/the-hunt.jpeg" alt="the hunt" class="d-block">
+                                        <figcaption>
+                                            The Hunt
+                                        </figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/mulan.jpeg" alt="mulan" class="d-block">
+                                        <figcaption>
+                                            Mulan
+                                        </figcaption>
+                                    </a>
+                                </div>
+                                <div class="carousel-item" id="slide-3">
+                                    <a href="#" class="movie-posters">
+                                        <img src="./images/doctor strange.jpeg" alt="doctor strange" class="d-block">
+                                        <figcaption>
+                                            Doctor Strange
+                                        </figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/laxmi.jpeg" alt="Laxmi" class="
+                                            d-block">
+                                        <figcaption>
+                                            Laxmi
+                                        </figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/captain marvel.jpeg" alt="Captain Marvel" class=" d-block">
+                                        <figcaption>
+                                            Captain Marvel
+                                        </figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/criminal-justice.png" alt="Criminal Justice" class=" d-block">
+                                        <figcaption>
+                                            Criminal Justice
+                                        </figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/Gaurdians of galaxy.jpeg" alt="Gaurdians of galaxy" class=" d-block">
+                                        <figcaption>
+                                            Gaurdians of galaxy
+                                        </figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/siege.jpeg" alt="siege" class="d-block">
+                                        <figcaption>
+                                            Siege
+                                        </figcaption>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- the thrill section -->
+    <section id="thriller-movie-section" class="screen-play">
+        <div id="thrill-movies" class="common-movies">
+            <h3 class="heading">
+                Popular in Trill
+            </h3>
+            <div class="movie-images">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="#" class="movie-posters"><img src="./images/thriller/click.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>Click</figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/hhate stroy 3.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>
+                                            Hate Story 3
+                                        </figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/thriller/goodluck.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>GoodLuch</figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/thriller/gurgoan.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>Gurgoan</figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/thriller/black-water.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>Black Water</figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/thriller/black-friday.png" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>Black Friday</figcaption>
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#" class="movie-posters"><img src="./images/thriller/november.png" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>November</figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/thriller/saksar.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>AKsar</figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/thriller/survivor.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>Survivor</figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/thriller/tezz.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>Tezz</figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/thriller/the good wife.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>The good Wife</figcaption>
+                                    </a>
+
+                                    <a href="#" class="movie-posters"><img src="./images/thriller/the last call.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>The Last Call</figcaption>
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#" class="movie-posters"><img src="./images/thriller/nh48.png" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>NH 48</figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/thriller/the-snipper.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>The-Snipper</figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/thriller/kabil.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>Kabil</figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/thriller/underwater.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>UnderWater</figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/thriller/yetebar.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>Yetebar</figcaption>
+                                    </a>
+                                    <a href="#" class="movie-posters"><img src="./images/thriller/zoya.jpeg" alt="legend legend-hanuman" class="d-block">
+                                        <figcaption>Zoya</figcaption>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- the comedy section -->
+            <section id="comedy-movie" class="screen-play">
+                <div id="comedy-movies" class="common-movies">
+                    <h3 class="heading">
+                        Popular in Comedy
+                    </h3>
+                    <div class="movie-images">
+                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" id="slide-1">
+                                            <a href="#" class="movie-posters"><img src="./images/comedy/badaai ho.jpeg" alt="Badhai Ho" class="d-block">
+                                                <figcaption>
+                                                    Badaai ho
+                                                </figcaption>
+                                            </a>
+                                            <a href="#" class="movie-posters"><img src="./images/comedy/bala.jpeg" alt="Bala" class="d-block">
+                                                <figcaption>
+                                                    Bala
+                                                </figcaption>
+                                            </a>
+                                            <a href="#" class="movie-posters"><img src="./images/comedy/bamini&boys.jpeg" alt="legend legend-hanuman" class="d-block">
+                                                <figcaption>
+                                                    bamini&boys </figcaption>
+                                            </a>
+                                            <a href="#" class="movie-posters"><img src="./images/comedy/chaddi.png" alt="Chaddi" class="d-block">
+                                                <fig Chadhi </figcaption>
+                                            </a>
+                                            <a href="#" class="movie-posters"><img src="./images/comedy/bol bacchan.jpeg" alt="Bo Bachhan" class="d-block">
+                                                <figcaption>
+                                                    Bol Bachhan
+                                                </figcaption>
+                                            </a>
+                                            <a href="#" class="movie-posters"><img src="./images/comedy/dolly ki doli.jpeg" alt="Dolly ki Dolli" class="d-block">
+                                                <figcaption>
+                                                    Dolly Ki Dolly
+                                                </figcaption>
+                                            </a>
+                                        </div>
+                                        <div class="carousel-item" id="slide-2">
+                                            <a href="#" class="movie-posters"><img src="./images/comedy/ek life story.jpeg" alt="" class="d-block">
+                                                <figcaption>
+                                                    Ek life Story </figcaption>
+                                            </a>
+                                            <a href="#" class="movie-posters"><img src="./images/comedy/happy-hours.jpeg" alt="happy-hours" class="d-block">
+                                                <figcaption>
+                                                    <figcaption>Happy-Hours</figcaption>
+                                                </figcaption>
+                                            </a>
+                                            <a href="#" class="movie-posters"><img src="./images/comedy/housefull-2.jpeg" alt="housefull-2" class="d-block">
+                                                <figcaption>
+                                                    Housefull-2
+                                                </figcaption>
+                                            </a>
+                                            <a href="#slider" class="movie-posters"><img src="./images/comedy/housefull-4.jpeg" alt="housefull-4" class="d-block">
+                                                <figcaption>
+                                                    <figcaption>Housefull-4</figcaption>
+                                                </figcaption>
+                                            </a>
+                                            <a href="#" class="movie-posters"><img src="./images/comedy/jolly llb.jpeg" alt="jolly llb" class="d-block">
+                                                <figcaption>
+                                                    Jolly LLB </figcaption>
+                                            </a>
+                                            <a href="#" class="movie-posters"><img src="./images/comedy/triples.jpeg" alt="Triples" class="d-block">
+                                                <figcaption>
+                                                    Triples
+                                                </figcaption>
+                                            </a>
+                                        </div>
+                                        <div class="carousel-item" id="slide-3">
+                                            <a href="#" class="movie-posters">
+                                                <img src="./images/comedy/judwa-2.jpeg" alt="Judwaa 2" class="d-block">
+                                                <figcaption>
+                                                    Judwaa 2
+                                                </figcaption>
+                                            </a>
+                                            <a href="#" class="movie-posters"><img src="./images/comedy/lootcaseeg.jpeg" alt="Lootcase" class="
+                                            d-block">
+                                                <figcaption>
+                                                    Lootcase
+                                                </figcaption>
+                                            </a>
+                                            <a href="#" class="movie-posters"><img src="./images/comedy/theice-man.jpeg" alt="The Ice man" class=" d-block">
+                                                <figcaption>
+                                                    The Ice Man
+                                                </figcaption>
+                                            </a>
+                                            <a href="#" class="movie-posters"><img src="./images/comedy/pyaar de.jpeg" alt="Pyaar de" class=" d-block">
+                                                <figcaption>
+                                                    Pyaar De
+                                                </figcaption>
+                                            </a>
+                                            <a href="#" class="movie-posters"><img src="./images/comedy/madam.jpeg " alt="Madam" class=" d-block">
+                                                <figcaption>
+                                                    Madam
+                                                </figcaption>
+                                            </a>
+                                            <a href="#" class="movie-posters"><img src="./images/comedy/akele hum.jpeg" alt="akele hum" class="d-block">
+                                                <figcaption>
+                                                    Akele Hum
+                                                </figcaption>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <footer>
+                <div class="footer">
+                    <nav class="footer-nav">
+                        <ul class="menu">
+                            <li class="menu-items"><a href="http://">About Hotstar</a></li>
+                            <li class="menu-items"><a href="http://">Term of use</a></li>
+                            <li class="menu-items"><a href="http://">Privacy Policy</a></li>
+                            <li class="menu-items"><a href="http://">FAQ</a></li>
+                            <li class="menu-items"><a href="http://">Feedback</a></li>
+                            <li class="menu-items"><a href="http://">Careers</a></li>
+                        </ul>
+                        <div class="copyrights">
+                            <p>&copy; 2021 STAR. All Rights Reserved. HBO, Home Box Office and all related channel and programming logos are service marks of, and all related programming visuals and elements are the property of, Home Box Office, Inc.</p>
+                        </div>
+                    </nav>
+
+                    <div class="connect-with-us">
+                        <p>Connect With Us<br>
+                            <a href=""><img src="./images/icon-facebook.svg" alt="Facebook logo"></a>
+                            <a href=""><img src="./images/icon-twitter.svg" alt="Twitter logo"></a>
+                        </p>
+                    </div>
+                    <div class="downloads">
+                        <p>Disney+Hotstar on<br>
+                            <a href=""><img src="./images/download-images/playstore.png" alt="Play Store"></a>
+                            <a href=""><img src="./images/download-images/apple store.png" alt="Apple Store"></a>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+</body>
+
+</html>

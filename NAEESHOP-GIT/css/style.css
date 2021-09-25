@@ -4,6 +4,12 @@
     --gradient: linear-gradient(90deg, var(--purple), var(--pink));
 }
 
+
+/* general css */
+
+
+/* heading */
+
 * {
     padding: 0;
     margin: 0;
@@ -12,6 +18,22 @@
     box-sizing: border-box;
     background-color: none;
     scroll-behavior: smooth;
+}
+
+
+/* center */
+
+.center {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+
+/* section */
+
+section {
+    margin: 10rem 5rem;
 }
 
 
@@ -40,7 +62,6 @@ header .navbar a {
     text-decoration: none;
     color: var(--green);
     font-size: 0.9rem;
-    /* margin-left: 2rem;*/
     padding: 0.8rem;
     font-weight: bold;
 }
@@ -61,20 +82,7 @@ header .navbar a::before {
     background-color: #61dafb;
     position: absolute;
     margin-top: 2rem;
-    /* margin: 0 0 0 10%; */
 }
-
-
-/* header .navbar a:hover::before {
-    width: 3vw;
-    transition: linear 1s all;
-} */
-
-
-/* header .navbar .nav-links a {
-    display: flex;
-    justify-content: space-evenly;
-} */
 
 nav .fa {
     display: none;
@@ -97,14 +105,14 @@ nav .fa {
     height: 560px;
 }
 
-.signup {
+.custom-btn {
     position: sticky;
     top: 80%;
     left: 15%;
     transform: translate(-46%, 81%);
     -ms-transform: translate(-50%, -50%);
     -webkit-background-clip: text;
-    /* -webkit-text-fill-color: rgb(228, 56, 25); */
+    -webkit-text-fill-color: rgb(228, 56, 25);
     background: linear-gradient(135deg, #6da2ec 20%, #00d2ff 51%, #00d2ff 10%);
     font-size: 1rem;
     padding: 0.3rem 1.5rem;
@@ -114,7 +122,8 @@ nav .fa {
     border: 0.2rem outset rgba(236, 255, 236, 0.493);
 }
 
-.signup:hover[type="button"] {
+.custom-btn:hover[type="button"],
+.btn:hover {
     color: black;
     background: linear-gradient(45deg, #00d2ff 30%, #3a7bd5 100%, #00d2ff 10%);
     transition: linear 0.2s all;
@@ -126,7 +135,7 @@ nav .fa {
 }
 
 
-/* ist card */
+/* Intro Card */
 
 .showcase {
     height: 400px;
@@ -155,7 +164,6 @@ nav .fa {
     bottom: -80px;
     right: 0;
     left: 0;
-    /* background-color: #fff; */
     transform: skewY(-3deg);
     -webkit-transform: skewY(-3deg);
     -moz-transform: skewY(-3deg);
@@ -168,3 +176,138 @@ nav .fa {
     border: 0;
     width: 100%;
 }
+
+
+/* home servics section */
+
+
+/* deep dive button */
+
+.container-1 {
+    margin-bottom: 5rem;
+}
+
+.display-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#go_deep {
+    font-size: 0.9rem;
+}
+
+#home-delivery-img {
+    width: 30%;
+    height: 100%;
+    margin: 2rem 0 2rem 0;
+}
+
+.standard {
+    box-shadow: 0.4rem 0.3rem 0.2rem 0.3rem rgb(190, 189, 189);
+    border-width: 0.2rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    width: 50%;
+}
+
+.standard:hover {
+    background-color: var(--grey);
+    transition: ease-in-out 0.8s all;
+}
+
+.text_center {
+    flex: 0 0 19%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* e-commerce section */
+
+div.carousel-item .slider-img {
+    border: 2rem firebrick;
+    width: 25%;
+}
+
+
+/* foot */
+
+
+/*.footer {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    align-items: center;
+    background-color: var(--grey);
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+nav.footer-nav {
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+}
+
+nav ul.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul.menu li {
+    display: flex;
+}
+
+nav ul.menu li a {
+    color: var(--green);
+    text-decoration: none;
+}
+
+div.copyrights {
+    display: flex;
+    text-align: center;
+}
+
+div.connect-with-us {
+    display: inline-block;
+    width: max-content;
+    margin: auto;
+}
+
+div.connect-with-us p a {
+    margin: 1em;
+}
+
+div.connect-with-us p a img {
+    max-width: 100%;
+    height: auto;
+}
+
+div.downloads {
+    display: inline-flex;
+    margin: auto;
+}
+
+div.downloads p {
+    margin: 2em;
+    width: 100%;
+}
+
+div.downloads p a img {
+    max-width: max-content;
+    height: auto;
+    display: flex;
+    border-radius: 1rem;
+    margin-bottom: 2em;
+}*/
+
+
+/* 
+section.e-commerce div.row div.service-categories div.carousel.slide div.carousel-inner div.carousel-item {
+    flex: 0 0 10%;
+} */
+
+
+/* section.e-commerce div.row div.service-categories div.carousel.slide div.carousel-inner div.carousel-item.active {
+    display: flex;
+} */

@@ -1,0 +1,234 @@
+:root {
+    --primary-color: rgb(6, 6, 82);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 16px; */
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+a {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+a img#logo {
+    display: inline;
+    margin: 2em;
+    border-radius: 0.5rem;
+    max-width: 100%;
+    height: auto;
+    padding-right: 2em;
+}
+
+#navbar {
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+}
+
+#navbar::before,
+#navbar::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background-color: var(--primary-color);
+    margin: auto;
+    z-index: -1;
+    height: 195%;
+    max-height: fit-content;
+}
+
+ul.nav-tabs {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    justify-content: space-evenly;
+    border-bottom: 0;
+}
+
+ul li.nav-item {
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li a.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+div.search {
+    width: inherit;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+label {
+    color: #fff;
+}
+
+input[type="search"],
+input#tag {
+    border-radius: 0.5rem;
+    padding: 1em;
+    font-size: 1rem;
+    background-color: #030356;
+    border: 0.2rem groove #030356;
+    max-width: 100%;
+    height: auto;
+}
+
+figure#hamberger {
+    display: none;
+}
+
+
+/* the slider section */
+
+section.screen-play {
+    display: flex;
+    width: inherit;
+    background-color: var(--primary-color);
+}
+
+div.carousel-inner::before,
+div.carousel-inner::after {
+    content: "";
+    position: relative;
+    width: max-content;
+    height: 100%;
+    background-color: var(--primary-color);
+    opacity: 1;
+    z-index: -1;
+}
+
+section.screen-play div.common-movies {
+    margin: 1em;
+}
+
+div.movie-images {
+    margin: auto 6em;
+}
+
+section.screen-play div.common-movies div.movie-images div.carousel.slide div.carousel-inner div.carousel.slide.carousel-fade div.carousel-inner div.carousel-item {
+    display: flex;
+}
+
+a.movie-posters {
+    margin: 2rem;
+    overflow: hidden;
+    box-shadow: 1rem 1rem 0rem 0rem rgb(1, 1, 39);
+    border: 2px groove rgb(1, 1, 39);
+    border-radius: 0.5rem;
+}
+
+a.movie-posters img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* slider 2 */
+
+
+/* utility class */
+
+.heading {
+    color: #fff;
+    margin: 0.5em;
+    padding: 1em;
+    border-bottom: 2px solid #fff;
+}
+
+a.movie-posters figcaption {
+    text-decoration: none;
+    opacity: 0;
+}
+
+a.movie-posters figcaption:hover,
+a.movie-posters figcaption:active {
+    cursor: pointer;
+    opacity: 1;
+    text-align: center;
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 0.8rem;
+    /* border: 2px solid red; */
+}
+
+nav.footer-nav {
+    display: inline-block;
+    /* border: 2px solid red; */
+    width: 50%;
+    margin: auto;
+}
+
+nav ul.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul.menu li {
+    display: flex;
+}
+
+nav ul.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+div.copyrights {
+    display: flex;
+    text-align: center;
+}
+
+div.connect-with-us {
+    display: inline-block;
+    width: max-content;
+    margin: auto;
+}
+
+div.connect-with-us p a {
+    margin: 1em;
+}
+
+div.connect-with-us p a img {
+    max-width: 100%;
+    height: auto;
+}
+
+div.downloads {
+    display: inline-flex;
+    /* border: 2px solid yellow; */
+    margin: auto;
+}
+
+div.downloads p {
+    margin: 2em;
+    width: 100%;
+}
+
+div.downloads p a img {
+    max-width: max-content;
+    height: auto;
+    display: flex;
+    border-radius: 1rem;
+    margin-bottom: 2em;
+}
