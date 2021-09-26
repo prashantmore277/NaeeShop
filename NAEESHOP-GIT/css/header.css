@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+  --grey: rgba(170, 166, 166, 0.2);
+  --green: rgb(0, 255, 115);
+  --gradient: linear-gradient(90deg, var(--purple), var(--pink));
+  --shadow: rgb(190, 189, 189);
+  --primary-color: hsl(231, 69%, 60%);
+  --black: rgba(59, 58, 58, 0.568);
+  
+}
+
+/* general css */
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: none;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 16px;
+  /* font-family:  'Poppins', sans-serif; */
+
+  font-family: "Baloo 2",sans-serif, cursive;
+}
+section {
+    margin: 10rem 5rem;
+  }
+  
+  /*Header Styling Starts  */
+  
+  header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 0.3rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+  
+  .logo {
+    width: 111px;
+    border-radius: 0.5rem;
+  }
+  
+  header .navbar a,
+  .menu-items {
+    text-decoration: none;
+    color: var(--green);
+    font-size: 0.9rem;
+    padding: 0.8rem;
+    font-weight: bold;
+  }
+  
+  header .navbar a:hover {
+    color: grey;
+    border-radius: 0.5rem;
+    background-color: var(--grey);
+    transition: linear 1s all;
+  }
+  
+  header .navbar a::before {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: auto;
+    bottom: 25%;
+    background-color: #61dafb;
+    position: absolute;
+    margin-top: 2rem;
+  }
+  
+  nav .fa {
+    display: none;
+  }
+  
+  /*Header Styling End*/
+  

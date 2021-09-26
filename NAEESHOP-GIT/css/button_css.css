@@ -30,3 +30,8 @@
     font-variant: small-caps;
     font-weight: bold;
 }
+
+/* services btn */
+.btn-dimension{
+    width: 40vh;
+}

@@ -1,0 +1,142 @@
+/* the first footer */
+:root {
+  --font-family: "Rubik", sans-serif;
+  --primary-color: hsl(231, 69%, 60%);
+  --secondary-color: hsl(0, 94%, 66%);
+  --Grayish-Blue: hsl(229, 8%, 60%);
+  --Very-Dark-Blue: hsl(229, 31%, 21%);
+}
+div#footer-nav {
+  width: 100%;
+  background-color: var(--primary-color);
+  padding: 3rem 1rem;
+  color: #fff;
+  font-size: 1rem;
+}
+center.contact-search {
+  display: flex;
+  justify-content: center;
+}
+div#footer-nav p.align-text,
+h1.align-text {
+  margin: 1.2rem auto;
+  font-size: 1rem;
+  text-align: center;
+}
+div#footer-nav input[type="email"],
+div#footer-nav button[type="submit"] {
+  text-align: center;
+}
+div#footer-nav center input[type="email"] {
+  /* background-color: #fff;  */
+  padding: 0.6rem;
+  border-radius: 2.5rem;
+  width: 20%;
+  /* margin-right: -2.8rem; */
+  text-align: center;
+  outline: none;
+  color: var(--Grayish-Blue);
+  
+
+}
+div#footer-nav input[type="email"]:hover,
+div#footer-nav button[type="submit"]:hover {
+  transition: linear 0.5s all;
+}
+div#footer-nav center button[type="submit"] {
+  display: none;
+  position: relative;
+
+}
+/* footer start here */
+#bg-black {
+  background-color: var(--black);
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  align-items: center;
+  color: #fff;
+  font-size: 0.8rem;
+  width: 100%;
+  padding: 3rem 0;
+}
+#overflow-issue {
+  --bs-gutter-x: 0rem;
+}
+nav.footer-nav {
+  display: inline-block;
+  width: 50%;
+  margin: auto;
+}
+
+nav ul.menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul.menu li {
+  display: flex;
+}
+
+nav ul.menu li a {
+  color: var(--green);
+  text-decoration: none;
+}
+
+div.copyrights {
+  display: flex;
+  text-align: center;
+}
+
+div.connect-with-us {
+  display: inline-block;
+  width: max-content;
+  margin: auto;
+}
+
+div.connect-with-us p,
+div.connect-with-us p a {
+  margin: 2rem 0rem 2rem 0;
+  font-size: 1rem;
+}
+div.connect-with-us p a img {
+  margin: 1rem 1rem -2rem 0rem;
+}
+div.connect-with-us {
+  margin: auto auto auto 0rem;
+}
+div.connect-with-us p a:hover {
+  padding-top: 1em;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: linear 1s all;
+}
+
+div.connect-with-us p a img {
+  max-width: 100%;
+  height: auto;
+}
+
+div.downloads {
+  display: inline-flex;
+  margin: auto;
+}
+
+div.downloads p {
+  margin: 2rem 0rem 2rem 0;
+  font-size: 1rem;
+  width: 100%;
+}
+
+div.downloads p a img {
+  max-width: max-content;
+  width: 80%;
+  height: auto;
+  display: flex;
+  border-radius: 1rem;
+  margin-bottom: 2em;
+}
+
+/* footer ends here */
