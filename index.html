@@ -10,6 +10,10 @@
 
     <!-- linking css -->
     <link rel="stylesheet" href="./NAEESHOP-GIT/css/style.css">
+    <!-- linking header -->
+    <link rel="stylesheet" href="./NAEESHOP-GIT/css/header.css">
+    <!-- linking footer style sheet -->
+    <link rel="stylesheet" href="./NAEESHOP-GIT/css/footer.css">
 
     <!-- linking responvise css -->
     <link rel="stylesheet" href="./NAEESHOP-GIT/css/responsive.css">
@@ -20,8 +24,14 @@
     <!-- linking button style sheet -->
     <link rel="stylesheet" href="./NAEESHOP-GIT/css/button_css.css">
 
+    <!-- linking google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+
     <!-- linking bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
     <!-- linking font awesome -->
 
@@ -41,10 +51,10 @@
             <div class="nav-links" id="nav-links">
                 <i class="fa fa-times" onclick="hiddenMenu()" aria-hidden="true"></i>
 
-                <a href="#home" id="nav-link-home" class="nav-tabs">Home</a>
-                <a href="#Online Booking" class="nav-tabs">Online Booking</a>
+                <a href="#description" id="nav-link-home" class="nav-tabs">Home</a>
+                <a href="#categories" class="nav-tabs">Online Booking</a>
                 <a href="#home-service" class="nav-tabs">Home Service</a>
-                <a href="#About-us" class="nav-tabs">About-us</a>
+                <a href="#e-commerce" class="nav-tabs">Shop</a>
                 <a href="#contact" class="nav-tabs">Contact</a>
             </div>
             <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
@@ -62,20 +72,23 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./NAEESHOP-GIT/image/a1.jpeg" class="d-block w-100 dimension" alt="...">
+                    <img src="./NAEESHOP-GIT/image/a1.jpeg" class="d-block w-100 dimension" alt="image one">
                 </div>
                 <div class="carousel-item">
-                    <img src="./NAEESHOP-GIT/image/a2.jpeg" class="d-block w-100 dimension" alt="...">
+                    <img src="./NAEESHOP-GIT/image/a2.jpeg" class="d-block w-100 dimension" alt="image two">
                 </div>
                 <div class="carousel-item">
-                    <img src="./NAEESHOP-GIT/image/a3.jpeg" class="d-block w-100 dimension" alt="...">
+                    <img src="./NAEESHOP-GIT/image/a3.jpeg" class="d-block w-100 dimension" alt="image three">
                 </div>
                 <!-- register now button -->
                 <!-- description -->
                 <button class="custom-btn" id="register" type="button">Register with us!</button>
                 <div class="showcase-form card" id="card">
-                    <h2>Welcome to Naee shop</h2>
-
+                    <!-- <h2>Welcome to Naee shop</h2> -->
+                    <div class="wrapper">
+                        <div class="typing-demo">
+                            Welcome to Naee shop </div>
+                    </div>
                     <h3 class="content">✔Book Your Appointment!
                         <h3 class="content">✔Take Salon service at your Home!
                         </h3>
@@ -87,11 +100,13 @@
 
             <!-- slider buttons -->
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -109,7 +124,7 @@
         <hr>
         <!-- categories names starts -->
         <div class="row categories">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 height_categories">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 height_categories" id="men">
                 <div class="hovereffect">
                     <img class="img-responsive img " src="./NAEESHOP-GIT/image/men.jpeg" alt="">
 
@@ -122,7 +137,7 @@
 
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 height_categories">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 height_categories" id="women">
                 <div class="hovereffect">
                     <img class="img-responsive img" src="./NAEESHOP-GIT/image/a5.jpeg" alt="">
 
@@ -136,7 +151,7 @@
 
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 height_categories">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 height_categories" id="Kid">
                 <div class="hovereffect">
                     <img class="img-responsive img" src="./NAEESHOP-GIT/image/kids.jpeg" alt="">
 
@@ -149,7 +164,7 @@
                 <button class="btn center">Kids</button>
 
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 height_categories">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 height_categories" id="transGender">
                 <div class="hovereffect">
                     <img class="img-responsive img" src="./NAEESHOP-GIT/image/trans.jpeg" alt="trans">
                     <div class="overlay">
@@ -167,20 +182,25 @@
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="./NAEESHOP-GIT/image/Discountimage.jpg " class="d-block w-100 slider-2.5" alt="...">
+                        <img src="./NAEESHOP-GIT/image/Discountimage.jpg " class="d-block w-100 slider-2.5 img"
+                            alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="./NAEESHOP-GIT/image/adam-winger-WXmHwPcFamo-unsplash.jpg" class="d-block w-100 slider-2.5" alt="...">
+                        <img src="./NAEESHOP-GIT/image/adam-winger-WXmHwPcFamo-unsplash.jpg"
+                            class="d-block w-100 slider-2.5 img" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./NAEESHOP-GIT/image/vahid-kanani-4-QaKPwndmw-unsplash.jpg" class="d-block w-100 slider-2.5" alt="...">
+                        <img src="./NAEESHOP-GIT/image/vahid-kanani-4-QaKPwndmw-unsplash.jpg"
+                            class="d-block w-100 slider-2.5 img" alt="...">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -198,99 +218,193 @@
         <hr>
         <div class="row">
             <div class="container-1 display-1">
-                <h3 class="heading">Saloon At Your Home</h3>
+                <h3>Saloon At Your Home</h3>
                 <input type="button" value="Go Deep!" name="go_deep" id="go_deep" class="btn">
             </div>
             <div class="service-categories display-1 ">
-                <img src="./NAEESHOP-GIT/image/undraw_On_the_way_re_swjt.svg" alt="home delivery" class="float-left" id="home-delivery-img">
-                <div class="standard row text_center pushable"><input type="button" value="Economic" class="front" id="Economic"></div>
-                <div class="standard row text_center pushable"><input type="button" value="Standard" class="front" id="Standard"></div>
-                <div class="standard row text_center pushable"><input type="button" value="Premimus" class="front" id="Premimus"></div>
+                <img src="./NAEESHOP-GIT/image/undraw_On_the_way_re_swjt.svg" alt="home delivery" class="float-left"
+                    id="home-delivery-img">
+                <div class="standard row text_center pushable"><a href="#men"><input type="button" value="Economic"
+                            class="front" id="Economic"></a></div>
+                <div class="standard row text_center pushable"><a href="#women"><input type="button" value="Standard"
+                            class="front" id="Standard"></a></div>
+                <div class="standard row text_center pushable"><a href="#kid"><input type="button" value="Premimus"
+                            class="front" id="Premimus"></a></div>
             </div>
         </div>
     </section>
 
+    <!-- home service ends here -->
+
+    <!-- e-commerce starts here -->
     <section class="e-commerce" id="e-commerce">
-        <h1 class="heading">Welcome TO NaeeShop</h1>
+        <h1 class="heading">Your Naee Shop</h1>
         <hr>
         <div class="row">
-            <div class=" container-1 display-1 ">
-                <h3 class="heading ">In your spotlight <span>Arriving soon</span></h3>
-                <input type="button " value="Go Deep! " name="go_deep " id="go_deep " class="btn ">
+            <div class="container-1 display-1">
+                <h3>In your Spotlight </h3>
+                <input type="button" value="Arriving Soon!!" name="arriving_soon" id="go_deep" class="btn">
             </div>
-            <div class="service-categories display-1 ">
-                <!-- <img src="./NAEESHOP-GIT/image/undraw_On_the_way_re_swjt.svg " alt="home delivery " class="float-left " id="home-delivery-img "> -->
-                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src=".." class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./NAEESHOP-GIT/image/a2.jpeg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./NAEESHOP-GIT/image/a2.jpeg" class="d-block w-100" alt="...">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="#" class="product-posters pushable "><img src="./NAEESHOP-GIT/image/"
+                                        alt="..." class="d-block">
+                                    <figcaption>hell gand mara</figcaption>
+                                </a>
+                                <a href="#" class="product-posters "><img src="./NAEESHOP-GIT/image/a8.jpeg" alt="...."
+                                        class="d-block">
+                                    <figcaption>lavduu
+                                    </figcaption>
+                                </a>
+                                <a href="#" class="product-posters "><img src="./NAEESHOP-GIT/image/a9.jpeg" alt="...."
+                                        class="d-block">
+                                    <figcaption>...</figcaption>
+                                </a>
+                                <a href="#" class="product-posters "><img src="./NAEESHOP-GIT/image/a11.jpeg" alt="...."
+                                        class="d-block">
+                                    <figcaption>...</figcaption>
+                                </a>
+                                <a href="#" class="product-posters  "><img src="./NAEESHOP-GIT/image/a12.jpeg"
+                                        alt="...." class="d-block">
+                                    <figcaption>...</figcaption>
+                                </a>
+                                <a href="#" class="product-posters  "><img src="./NAEESHOP-GIT/image/a13.jpeg"
+                                        alt="...." class="d-block">
+                                    <figcaption>...</figcaption>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#" class="product-posters pushable "><img src="
+                                        alt=" ...." class="d-block">
+                                    <figcaption>...</figcaption>
+                                </a>
+                                <a href="#" class="product-posters" src="#" alt="...." class="d-block">
+                                    <figcaption>...</figcaption>
+                                </a>
+                                <a href="#" class="product-posters  "><img src="#" alt="...." class="d-block">
+                                    <figcaption>...</figcaption>
+                                </a>
+                                <a href="#" class="product-posters  "><img src="#" alt="...." class="d-block">
+                                    <figcaption>...</figcaption>
+                                </a>
+                                <a href="#" class="product-posters  "><img src="#" alt="...." class="d-block">
+                                    <figcaption>....</figcaption>
+                                </a>
+
+                                <a href="#" class="product-posters  "><img src="#" alt="...." class="d-block">
+                                    <figcaption>...</figcaption>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#" class="product-posters  "><img src=#" alt="...." class="d-block">
+                                    <figcaption>...</figcaption>
+                                </a>
+                                <a href="#" class="product-posters  "><img src="#" alt="...." class="d-block">
+                                    <figcaption>....</figcaption>
+                                </a>
+                                <a href="#" class="product-posters  "><img src=".#" alt="...." class="d-block">
+                                    <figcaption>...</figcaption>
+                                </a>
+                                <a href="#" class="product-posters  "><img src="#" alt="...." class="d-block">
+                                    <figcaption>...</figcaption>
+                                </a>
+                                <a href="#" class="product-posters  "><img src="#" alt="...." class="d-block">
+                                    <figcaption>...</figcaption>
+                                </a>
+                                <a href="#" class="product-posters "><img src="#" alt="...." class="d-block">
+                                    <figcaption>....</figcaption>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
                     </button>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- e-commerce ends here -->
+
     <footer>
-        <div class="footer">
+        <div id="footer-nav">
+            <p class="center align-text text-center"> 35,000+ already joined
+            </p>
+            <h1 class="center align-text"> Stay up-to-date with what<br> we’re doing
+            </h1>
+
+            <center class="contact-search"><a href="mailto:?subject=Your Subscription"><input type="email" name="email"
+                        onclick="ChangeEmailPosition()" id="emailInput" placeholder="Enter your email addres"></a>
+                <button type="submit" role="button" name="subscribe now" id="subscribeNow"
+                    onclick="ChangeSubcribeBtnPosition()" class="btn"> Subscribe Now
+                </button>
+            </center>
+        </div>
+        <div class="footer" id="bg-black">
             <nav class="footer-nav">
                 <ul class="menu">
-                    <li class="menu-items"><a href="http://">About Hotstar</a></li>
-                    <li class="menu-items"><a href="http://">Term of use</a></li>
-                    <li class="menu-items"><a href="http://">Privacy Policy</a></li>
-                    <li class="menu-items"><a href="http://">FAQ</a></li>
-                    <li class="menu-items"><a href="http://">Feedback</a></li>
-                    <li class="menu-items"><a href="http://">Careers</a></li>
+                    <li class="menu-items"><a href="http://">Home</a></li>
+                    <li class="menu-items"><a href="http://">Online Booking</a></li>
+                    <li class="menu-items"><a href="http://">Home Service</a></li>
+                    <li class="menu-items"><a href="http://">About-us</a></li>
+                    <li class="menu-items"><a href="http://">Contact Us</a></li>
                 </ul>
                 <div class="copyrights">
-                    <p>&copy; 2021 STAR. All Rights Reserved. HBO, Home Box Office and all related channel and programming logos are service marks of, and all related programming visuals and elements are the property of, Home Box Office, Inc.</p>
+                    <p>&copy; 2021 STAR. All Rights Reserved. HBO, Home Box Office and all related channel and
+                        programming logos are service marks of, and all related programming visuals and elements are
+                        the
+                        property of, Home Box Office, Inc.</p>
                 </div>
             </nav>
+            <div class="row " id="overflow-issue">
+                <div class="connect-with-us">
+                    <p>Connect With Us<br>
+                        <a href=""><img src="./NAEESHOP-GIT/image/icon-facebook.svg" alt="Facebook logo"></a>
+                        <a href=""><img src="./NAEESHOP-GIT/image/icon-twitter.svg" alt="Twitter logo" c></a>
+                        <a href=""><img src="./NAEESHOP-GIT/image/icon-youtube.svg" alt="Twitter logo" c></a>
+                        <a href=""><img src="./NAEESHOP-GIT/image/icon-pinterest.svg" alt="Twitter logo" c></a>
 
-            <div class="connect-with-us">
-                <p>Connect With Us<br>
-                    <a href=""><img src="./images/icon-facebook.svg" alt="Facebook logo"></a>
-                    <a href=""><img src="./images/icon-twitter.svg" alt="Twitter logo"></a>
-                </p>
-            </div>
-            <div class="downloads">
-                <p>Disney+Hotstar on<br>
-                    <a href=""><img src="./images/download-images/playstore.png" alt="Play Store"></a>
-                    <a href=""><img src="./images/download-images/apple store.png" alt="Apple Store"></a>
-                </p>
+                    </p>
+                </div>
+                <div class="downloads">
+                    <p>Get your App here 👇👇<br>
+                        <a href=""><img src="./NAEESHOP-GIT/image/playstore.png" alt="Play Store"></a>
+                        <a href=""><img src="./NAEESHOP-GIT/image/apple store.png" alt="Apple Store"></a>
+                    </p>
+                </div>
             </div>
         </div>
     </footer>
 
 </body>
 <!-- Option 1: Bootstrap Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ " crossorigin="anonymous "></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js "
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ "
+    crossorigin="anonymous "></script>
 
 <!-- Option 2: Separate Popper and Bootstrap JS -->
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js " integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN " crossorigin="anonymous "></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js "
+    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN "
+    crossorigin="anonymous "></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js " integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/ " crossorigin="anonymous "></script> -->
 
 <script src="./NAEESHOP-GIT/main/main.js "></script>
 
-<script>
-    src = "https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js "
-    integrity = "sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN "
-    crossorigin = "anonymous "
-</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js "
+    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN " crossorigin="anonymous ">
+    </script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js " integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/ " crossorigin="anonymous "></script> -->
 
 <script src="./NAEESHOP-GIT/main/main.js "></script>
