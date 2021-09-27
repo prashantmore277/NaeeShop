@@ -29,10 +29,8 @@ div#footer-nav button[type="submit"] {
 }
 div#footer-nav center input[type="email"] {
   /* background-color: #fff;  */
-  padding: 0.6rem;
+  padding:0.6rem 2rem;
   border-radius: 2.5rem;
-  width: 20%;
-  /* margin-right: -2.8rem; */
   text-align: center;
   outline: none;
   color: var(--Grayish-Blue);

@@ -23,10 +23,11 @@
 }
 body {
   font-size: 16px;
+
   /* font-family:  'Poppins', sans-serif; */
 
-  font-family: "Baloo 2",sans-serif, cursive;
-}
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Libre Baskerville', serif;}
 
 
 /* heading */
@@ -110,7 +111,6 @@ nav .fa {
   margin: 2rem 0.5rem auto 0rem;
   border-radius: 0.9rem;
   height: 560px;
-  opacity: 0.77;
 }
 
 .custom-btn {
@@ -141,7 +141,7 @@ nav .fa {
   position: relative;
   font-size: 1rem;
 }
-/* .wrapper {
+.wrapper {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -155,7 +155,7 @@ nav .fa {
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
-  font-size: 2em;
+  font-size: 3rem;
 }
 
 @keyframes typing {
@@ -168,7 +168,7 @@ nav .fa {
   50% {
     border-color: transparent
   }
-} */
+}
 
 /* Intro Card */
 
@@ -271,8 +271,8 @@ a.product-posters {
   box-sizing: border-box;
   margin: 2rem;
   overflow: hidden;
-  box-shadow: 0.4rem 0.3rem 0.2rem 0.3rem var(--shadow);
-  border: 2px groove rgb(1, 1, 39);
+  box-shadow: 0.4rem 0.3rem 0.2rem 0.3rem #d6d3d3;
+  border: 2px groove #d6d3d3;
   border-radius: 0.5rem;
   max-width: 100%;
 }
@@ -282,7 +282,13 @@ a.product-posters img {
 }
 
 a.product-posters:hover {
-  box-shadow: 0.4rem 0.1rem 0.1rem 0.1rem #383838;
+  box-shadow: 0.4rem 0.1rem 0.1rem 0.1rem var(--black);
+  border-color: var(--black);
 }
 
+a figcaption{
+  text-decoration: none;
+  text-align: center;
+  color: var(--gradient);
+}
 /* e-commerce ends here */
