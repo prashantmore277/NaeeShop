@@ -106,7 +106,9 @@
   border-radius: 2rem;
   object-fit: contain;
 }
-
+/* div.row div.carousel.slide div.carousel-inner div.carousel-item.active img.img{
+  width: auto;
+} */
 /* categories button */
 
 .btn {

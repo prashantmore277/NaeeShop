@@ -101,10 +101,10 @@
     font-size: 62.5%;
   }
   section.description {
-    margin: 4rem 2rem;
+    margin: auto 2.2rem;
   }
   section.categories {
-    margin: 4rem 5rem;
+    margin: 2rem 4rem;
   }
 
   .wrapper {
