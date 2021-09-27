@@ -91,12 +91,13 @@ section {
 
 .typing-demo {
   width: 22ch;
-  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  animation: typing 4s steps(22), blink 0.2s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
   font-size: 3rem;
+  animation-iteration-count: infinite;
 }
 
 @keyframes typing {
