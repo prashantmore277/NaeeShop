@@ -61,7 +61,7 @@ div#footer-nav center button[type="submit"] {
   padding: 3rem 0;
 }
 #overflow-issue {
-  --bs-gutter-x: 0rem;
+  --bs-gutter-x: -3rem;
 }
 nav.footer-nav {
   display: inline-block;
@@ -89,9 +89,9 @@ div.copyrights {
 }
 
 div.connect-with-us {
-  display: inline-block;
-  width: max-content;
-  margin: auto;
+  display: block;
+  width: 100%;
+  margin:auto; 
 }
 
 div.connect-with-us p,
@@ -102,9 +102,9 @@ div.connect-with-us p a {
 div.connect-with-us p a img {
   margin: 1rem 1rem -2rem 0rem;
 }
-div.connect-with-us {
+/* div.connect-with-us {
   margin: auto auto auto 0rem;
-}
+} */
 div.connect-with-us p a:hover {
   padding-top: 1em;
   cursor: pointer;
