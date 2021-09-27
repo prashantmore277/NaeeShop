@@ -97,6 +97,9 @@
 }
 
 @media screen and (min-width: 284px) and (max-width: 691px) {
+  body{
+    font-size: 60.5%;
+  }
   section {
     margin: 4rem 2rem;
   }
@@ -104,7 +107,7 @@
     margin: 4rem 5rem;
   }
   section.e-commerce {
-    margin: 8rem 2rem;
+    margin: 10rem 2rem;
     /* font-size: 0.6rem; */
   }
   .wrapper {
