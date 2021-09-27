@@ -98,7 +98,7 @@
 
 @media screen and (min-width: 284px) and (max-width: 691px) {
   section {
-    margin: 4rem 5rem;
+    margin: 4rem 2rem;
   }
   .wrapper {
     height: 50vh;
