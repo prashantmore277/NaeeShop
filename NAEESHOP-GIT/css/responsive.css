@@ -97,19 +97,16 @@
 }
 
 @media screen and (min-width: 284px) and (max-width: 691px) {
-  body{
-    font-size: 60.5%;
+  body {
+    font-size: 62.5%;
   }
   section {
-    margin: 4rem 2rem;
+    margin: 7.5rem 2rem;
   }
   section.categories {
     margin: 4rem 5rem;
   }
-  section.e-commerce {
-    margin: 10rem 2rem;
-    /* font-size: 0.6rem; */
-  }
+
   .wrapper {
     height: 50vh;
   }
