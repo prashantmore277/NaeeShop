@@ -48,7 +48,7 @@ div#footer-nav center button[type="submit"] {
 }
 /* footer start here */
 #bg-black {
-  background-color: var(--black);
+  background-color: #000;
 }
 .footer {
   display: flex;

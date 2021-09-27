@@ -148,6 +148,29 @@
     border-radius: 2rem;
     object-fit: contain;
   }
+
+  /* e-commerce */
+  section.e-commerce
+  div.row
+  div.carousel.slide
+  div.carousel-inner
+  div.carousel.slide.carousel-fade
+  div.carousel-inner
+  div.carousel-item.active
+  a{
+    width: max-content;
+  }
+  section.e-commerce
+  div.row
+  div.carousel.slide
+  div.carousel-inner
+  div.carousel.slide.carousel-fade
+  div.carousel-inner
+  div.carousel-item.active
+  a
+  figcaption.figcaption {
+    font-size: 0.5rem;
+}
 }
 @media screen and (min-width: 284px) and (max-width: 502px) {
   #register {

@@ -1,5 +1,5 @@
-var navLinks = document.getElementById("nav-links");
-
+let navLinks = document.getElementById("nav-links");
+let removeImgClass = document.getElementsByClassName("img");
 function hiddenMenu() {
     navLinks.style.right = "-200px";
 }
@@ -8,8 +8,8 @@ function showMenu() {
     navLinks.style.right = "0";
 }
 
-var emailInput = document.getElementById("emailInput");
-var subscribeBtn = document.getElementById("subscribeNow");
+let emailInput = document.getElementById("emailInput");
+let subscribeBtn = document.getElementById("subscribeNow");
 
 function ChangeEmailPosition() {
     subscribeBtn.style.display = "block";
@@ -23,4 +23,9 @@ function ChangeEmailPosition() {
 function ChangeSubcribeBtnPosition() {
     subscribeBtn.style.transition = "ease-in all 10s";
     subscribeBtn.style.display = "none";
+}
+
+function removeClassImg(){
+    removeImgClass.classList.remove("mystyle");
+
 }
