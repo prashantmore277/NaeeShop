@@ -1,37 +1,53 @@
 .pushable {
-    border-radius: 12px;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    outline-offset: 4px;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
 }
 
 .front {
-    display: block;
-    padding: 12px 42px;
-    border-radius: 12px;
-    font-size: 1.25rem;
-    background: hsl(345deg 100% 47%);
-    color: rgb(245, 127, 127);
-    transform: translateY(-6px);
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: hsl(345deg 100% 47%);
+  color: rgb(245, 127, 127);
+  transform: translateY(-6px);
 }
 
 .pushable:active .front {
-    transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+.standard {
+  box-shadow: 0.4rem 0.3rem 0.2rem 0.3rem var(--shadow);
+  border-width: 0.2rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  width: 16%;
 }
 
-.standard input[type="button"] {
-    background: none;
-    border: none;
+.standard:hover {
+  background-color: var(--grey);
+  transition: ease-in-out 0.8s all;
 }
 
-.standard input[type="button"]:hover {
-    border: none;
-    font-variant: small-caps;
-    font-weight: bold;
+.standard a {
+  text-decoration: none;
+}
+.standard a input[type="button"] {
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.standard a input[type="button"]:hover {
+  border: none;
+  font-variant: small-caps;
+  font-weight: bold;
 }
 
 /* services btn */
-.btn-dimension{
-    width: 40vh;
+.btn-dimension {
+  width: 40vh;
 }

@@ -36,7 +36,7 @@ body {
 /* section */
 
 section {
-  margin: 10rem 5rem;
+  margin: 5rem 5rem;
 }
 
 /* .description styling starts */
@@ -163,9 +163,6 @@ section {
 
 /* deep dive button */
 
-.container-1 {
-  margin-bottom: 5rem;
-}
 
 .display-1 {
   display: flex;
@@ -182,22 +179,7 @@ section {
   margin: 2rem 0 2rem 0;
 }
 
-.standard {
-  box-shadow: 0.4rem 0.3rem 0.2rem 0.3rem var(--shadow);
-  border-width: 0.2rem;
-  border-radius: 0.5rem;
-  font-size: 2rem;
-  width: 50%;
-}
 
-.standard:hover {
-  background-color: var(--grey);
-  transition: ease-in-out 0.8s all;
-}
-
-.standard a {
-  text-decoration: none;
-}
 
 .text_center {
   flex: 0 0 15%;

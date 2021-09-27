@@ -101,7 +101,7 @@
     font-size: 62.5%;
   }
   section.description {
-    margin: 7.5rem 2rem;
+    margin: 4rem 2rem;
   }
   section.categories {
     margin: 4rem 5rem;
@@ -142,13 +142,13 @@
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
   }
-  /* .img {
-    height: 50vh;
-    width: 100%;
-    border-radius: 2rem;
-    object-fit: contain;
-  } */
-
+  /* btn home service*/
+  div.standard {
+    width: inherit;
+  }
+  .standard a input[type="button"]{
+    padding-top: 1rem;
+  }
 }
 @media screen and (min-width: 284px) and (max-width: 502px) {
   #register {
