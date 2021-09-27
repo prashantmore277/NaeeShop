@@ -207,25 +207,14 @@ section {
 
 /* e-commerce section */
 
-section.e-commerce
-  div.row
-  div.carousel.slide
-  div.carousel-inner
-  div.carousel.slide.carousel-fade
-  div.carousel-inner
-  div.carousel-item {
-  display: flex;
-}
-
 a.product-posters {
   box-sizing: border-box;
-  margin:2rem auto;
+  margin: 2rem auto;
   overflow: hidden;
   box-shadow: 0.4rem 0.3rem 0.2rem 0.3rem #d6d3d3;
   border: 2px groove #d6d3d3;
   border-radius: 0.5rem;
   max-width: 100%;
-  
 }
 
 a.product-posters img {
@@ -238,8 +227,6 @@ a.product-posters:hover {
   border-color: var(--black);
 }
 
-
 /* e-commerce ends here */
-
 
 /* e-commerce ends here */

@@ -100,7 +100,7 @@
   body {
     font-size: 62.5%;
   }
-  section {
+  section.description {
     margin: 7.5rem 2rem;
   }
   section.categories {
@@ -142,35 +142,13 @@
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
   }
-  .img {
-    /* height: 50vh; */
+  /* .img {
+    height: 50vh;
     width: 100%;
     border-radius: 2rem;
     object-fit: contain;
-  }
+  } */
 
-  /* e-commerce */
-  section.e-commerce
-  div.row
-  div.carousel.slide
-  div.carousel-inner
-  div.carousel.slide.carousel-fade
-  div.carousel-inner
-  div.carousel-item.active
-  a{
-    width: max-content;
-  }
-  section.e-commerce
-  div.row
-  div.carousel.slide
-  div.carousel-inner
-  div.carousel.slide.carousel-fade
-  div.carousel-inner
-  div.carousel-item.active
-  a
-  figcaption.figcaption {
-    font-size: 0.5rem;
-}
 }
 @media screen and (min-width: 284px) and (max-width: 502px) {
   #register {

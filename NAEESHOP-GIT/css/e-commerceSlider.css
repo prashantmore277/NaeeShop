@@ -1,0 +1,106 @@
+:root {
+  --gutter: 20px;
+  --grey: rgba(170, 166, 166, 0.2);
+  --green: rgb(0, 255, 115);
+  --gradient: linear-gradient(90deg, var(--purple), var(--pink));
+  --shadow: rgb(190, 189, 189);
+  --primary-color: hsl(231, 69%, 60%);
+  --black: rgba(59, 58, 58, 0.568);
+}
+
+.app {
+  padding: var(--gutter) 0;
+  display: grid;
+  grid-gap: var(--gutter) 0;
+  grid-template-columns: var(--gutter) 1fr var(--gutter);
+  align-content: start;
+}
+
+.app > * {
+  grid-column: 2 / -2;
+}
+
+.app > .full {
+  grid-column: 1 / -1;
+}
+
+.hs {
+  display: grid;
+  grid-gap: calc(var(--gutter) / 2);
+  /* grid-template-columns: 10px; */
+  grid-template-rows: minmax(150px, 1fr);
+  grid-auto-flow: column;
+  /* grid-auto-columns: calc(50% - var(--gutter) * 2); */
+  /* scroll-snap-type: x proximity; */
+  /* padding-bottom: calc(.75 * var(--gutter)); */
+  /* margin-bottom: calc(-.25 * var(--gutter)); */
+}
+
+.hs:before,
+.hs:after {
+  content: "";
+  width: 10px;
+}
+
+/* Demo styles */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.app {
+  width: 375px;
+  height: 667px;
+  overflow-y: hidden;
+}
+
+.hs > li,
+.item {
+  scroll-snap-align: center;
+  padding: calc(var(--gutter) / 2 * 1.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* ecommefce images */
+div.app ul.no-scrollbar li a {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+div.app ul.no-scrollbar li a:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+div.app ul.no-scrollbar li a figcaption.figcaption:hover {
+  color: var(--primary-color);
+  transition: step-start 0.8s ease-in;
+  cursor: pointer;
+  background-color: var(--grey);
+}

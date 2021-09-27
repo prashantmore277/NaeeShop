@@ -101,7 +101,7 @@
 /* categories section  images*/
 
 .img {
-  /* height: 50vh; */
+  height: 50vh;
   width: 100%;
   border-radius: 2rem;
   object-fit: contain;
@@ -128,36 +128,4 @@
 }
 .main-height {
   height: 60vh;
-}
-/* ecommefce images */
-section.e-commerce
-  div.row
-  div.carousel.slide
-  div.carousel-inner
-  div.carousel.slide.carousel-fade
-  div.carousel-inner
-  div.carousel-item.active
-  a {
-  text-decoration: none;
-}
-section.e-commerce
-  div.row
-  div.carousel.slide
-  div.carousel-inner
-  div.carousel.slide.carousel-fade
-  div.carousel-inner
-  div.carousel-item.active
-  a:hover {
-  transform: scale(1.2);
-}
-section.e-commerce
-  div.row
-  div.carousel.slide
-  div.carousel-inner
-  div.carousel.slide.carousel-fade
-  div.carousel-inner
-  div.carousel-item.active
-  a
-  figcaption.figcaption {
-  color:var(--black);
 }
