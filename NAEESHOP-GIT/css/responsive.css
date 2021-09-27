@@ -100,6 +100,12 @@
   .wrapper {
     height: 50vh;
   }
+
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
   .typing-demo {
     width: 22ch;
     font-size: 1rem;
@@ -109,16 +115,15 @@
       width: 0;
     }
   }
-
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
+  .content {
+    font-size: 0.6rem;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 502px) {
   #register {
-    padding-left: 0.5rem;
+    padding-left: 5rem;
+    margin: auto;
+    font-size: 0.7rem;
   }
 }
 
@@ -126,9 +131,8 @@
   div.connect-with-us {
     margin: auto auto auto -8rem;
   }
-  nav ul.menu li{
-      display: block;
-      
+  nav ul.menu li {
+    display: block;
   }
   nav ul.menu li a {
     flex-direction: column;
