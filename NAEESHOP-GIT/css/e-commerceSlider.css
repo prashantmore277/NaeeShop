@@ -39,7 +39,7 @@
 .hs:before,
 .hs:after {
   content: "";
-  width: 10px;
+  width: 1px;
 }
 
 /* Demo styles */
@@ -57,7 +57,7 @@ h3 {
 
 .app {
   width: 375px;
-  height: 667px;
+  height: 100%;
   overflow-y: hidden;
 }
 

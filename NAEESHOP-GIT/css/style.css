@@ -197,7 +197,8 @@ a.product-posters {
 }
 
 a.product-posters img {
-  width: 100%;
+  width: auto;
+  /* margin: auto; */
   height: auto;
 }
 

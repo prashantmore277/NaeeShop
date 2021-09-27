@@ -29,13 +29,11 @@ div#footer-nav button[type="submit"] {
 }
 div#footer-nav center input[type="email"] {
   /* background-color: #fff;  */
-  padding:0.6rem 2rem;
+  padding: 0.6rem 2rem;
   border-radius: 2.5rem;
   text-align: center;
   outline: none;
   color: var(--Grayish-Blue);
-  
-
 }
 div#footer-nav input[type="email"]:hover,
 div#footer-nav button[type="submit"]:hover {
@@ -44,7 +42,6 @@ div#footer-nav button[type="submit"]:hover {
 div#footer-nav center button[type="submit"] {
   display: none;
   position: relative;
-
 }
 /* footer start here */
 #bg-black {
@@ -91,7 +88,7 @@ div.copyrights {
 div.connect-with-us {
   display: block;
   width: 100%;
-  margin:auto; 
+  margin: auto;
 }
 
 div.connect-with-us p,

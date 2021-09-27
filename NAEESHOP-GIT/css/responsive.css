@@ -146,9 +146,30 @@
   div.standard {
     width: inherit;
   }
-  .standard a input[type="button"]{
+  .standard a input[type="button"] {
     padding-top: 1rem;
   }
+  /* categories ad */
+  div.row
+    div.carousel.slide
+    div.carousel-inner
+    div.carousel-item.active
+    img.img {
+    height: 100%;
+    /* width: 100%; */
+    border-radius: 2rem;
+    object-fit: contain;
+  }
+/* footer */
+div#footer-nav center input[type="email"] {
+  /* background-color: #fff;  */
+  padding: 0.6rem 1rem;
+  border-radius: 2.5rem;
+  text-align: center;
+  outline: none;
+  color: var(--Grayish-Blue);
+}
+
 }
 @media screen and (min-width: 284px) and (max-width: 502px) {
   #register {
