@@ -102,7 +102,19 @@
         height: 50vh;
     }
     .typing-demo {
-        width: 12ch;
+        width: 5ch;
         font-size: 1rem;
     }
+    @keyframes typing {
+        from {
+          width: 0
+        }
+      }
+          
+      @keyframes blink {
+        50% {
+          border-color: transparent
+        }
+      }
+      
   }
