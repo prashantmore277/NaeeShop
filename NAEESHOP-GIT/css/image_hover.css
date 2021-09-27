@@ -101,7 +101,7 @@
 /* categories section  images*/
 
 .img {
-  height: 50vh;
+  /* height: 50vh; */
   width: 100%;
   border-radius: 1rem;
   object-fit: contain;
