@@ -95,3 +95,10 @@
     margin: auto 6rem;
   }
 }
+
+@media screen and (max-width: 691px) {
+    .typing-demo {
+        width: 22ch;
+        font-size: 2rem;
+    }
+  }
