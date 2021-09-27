@@ -96,7 +96,11 @@
   }
 }
 
+
 @media screen and (min-width:320px)and (max-width: 691px) {
+    .wrapper{
+        height: 50vh;
+    }
     .typing-demo {
         width: 12ch;
         font-size: 2rem;
