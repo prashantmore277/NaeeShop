@@ -96,7 +96,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 691px) {
+@media screen and (min-width: 284px) and (max-width: 691px) {
   .wrapper {
     height: 50vh;
   }
@@ -119,7 +119,7 @@
     font-size: 0.6rem;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 502px) {
+@media screen and (min-width: 284px) and (max-width: 502px) {
   #register {
     padding-left: 5rem;
     margin: auto;
@@ -139,10 +139,3 @@
   }
 }
 
-@media only screen and (min-width: 502px) and (max-width: 285px) {
-  #register {
-    padding-left: 5rem;
-    margin: auto;
-    font-size: 0.7rem;
-  }
-}
