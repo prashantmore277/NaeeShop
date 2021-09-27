@@ -102,7 +102,7 @@
         height: 50vh;
     }
     .typing-demo {
-        width: 5ch;
+        width: 22ch;
         font-size: 1rem;
     }
     @keyframes typing {
