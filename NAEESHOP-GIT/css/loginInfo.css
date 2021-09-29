@@ -1,53 +1,45 @@
-/* * {} */
-
-
-/* section {
-    margin-left: 11rem;
-    width: auto;
-} */
-
+* {
+  font-family: "Libre Baskerville", serif;
+}
 .signupbarber-button,
 .signupcoustmer-button {
-    background-color: #4CAF50;
-    /* Green */
-    border: none;
-    color: white;
-    padding: 1rem 2rem;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1rem;
-    border-radius: 0.2rem;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 0.2rem;
 }
 
-
-}
 .forbarber h2,
 .forcustmer h2 {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 .forbarber,
 .forcustmer {
-    margin-top: 2rem;
-    margin-right: 3rem;
+  margin-top: 2rem;
+  margin-right: 3rem;
 }
 .forbarber h2 p,
 .forcustmer h2 p {
-    margin: 5rem;
-    width: 100%;
-    text-align: justify;
+  margin: 5rem;
+  width: 100%;
+  text-align: justify;
 }
 .imagearea img {
-    display: block;
-    margin: auto;
-    width: 100%;
-    height: 100%;
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 100%;
 }
 .heading {
-    margin: -1rem;
+  margin: -1rem;
 }
+
 @media screen and (min-width: 701px) and (max-width: 1100px) {
-    * {
-        background: silver
-    }
+  * {
+    background: silver;
+  }
 }

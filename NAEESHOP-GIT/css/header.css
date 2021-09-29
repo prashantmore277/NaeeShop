@@ -1,7 +1,7 @@
 
 :root {
   --grey: rgba(170, 166, 166, 0.2);
-  --green: rgb(0, 255, 115);
+  --green: rgba(12, 214, 103, 0.616);
   --gradient: linear-gradient(90deg, var(--purple), var(--pink));
   --shadow: rgb(190, 189, 189);
   --primary-color: hsl(231, 69%, 60%);
@@ -22,7 +22,6 @@
 }
 body {
   font-size: 16px;
-  /* font-family:  'Poppins', sans-serif; */
 
   font-family: "Libre Baskerville", serif;
 }
@@ -53,7 +52,7 @@ body {
   .menu-items {
     text-decoration: none;
     color: var(--green);
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     padding: 0.8rem;
     font-weight: bold;
   }

@@ -1,61 +1,64 @@
+* {
+  font-family: "Libre Baskerville", serif;
+}
 .location {
-    width: 80%;
-    margin: auto;
-    padding: 4em 0;
+  width: 80%;
+  margin: auto;
+  padding: 4em 0;
 }
 
 .location iframe {
-    width: 100%;
+  width: 100%;
 }
 
 .contact-us {
-    margin: auto;
-    width: 80%;
+  margin: auto;
+  width: 80%;
 }
 
 .contact-col {
-    flex-basis: 48%;
-    overflow: hidden;
-    margin-bottom: 2.1em;
+  flex-basis: 48%;
+  overflow: hidden;
+  margin-bottom: 2.1em;
 }
 
 .contact-col div {
-    display: flex;
-    align-items: center;
-    margin-bottom: 3em;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3em;
 }
 
 .contact-col div .fa {
-    color: #f44336;
-    font-size: 2em;
-    margin: 0.7em;
-    margin-right: 2.8em;
+  color: #f44336;
+  font-size: 2em;
+  margin: 0.7em;
+  margin-right: 2.8em;
 }
 
 .contact-col div .far {
-    color: #f44336;
-    font-size: 2em;
-    margin: 0.7em;
-    margin-right: 2.8em;
+  color: #f44336;
+  font-size: 2em;
+  margin: 0.7em;
+  margin-right: 2.8em;
 }
 
 .contact-col div p {
-    padding: 0;
+  padding: 0;
 }
 
 .contact-col div h5 {
-    font-size: 1.5rem;
-    margin-bottom: 0.2em;
-    color: #555;
-    font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 0.2em;
+  color: #555;
+  font-weight: 400;
 }
 
 .contact-col input,
 .contact-col textarea {
-    width: 100%;
-    padding: 0.9em;
-    margin-bottom: 1em;
-    outline: none;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
+  width: 100%;
+  padding: 0.9em;
+  margin-bottom: 1em;
+  outline: none;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
 }

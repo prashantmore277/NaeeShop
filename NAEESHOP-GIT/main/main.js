@@ -1,10 +1,10 @@
-let navLinks = document.getElementById("nav-links");
+let navbar = document.getElementById("nav-links");
 function hiddenMenu() {
-    navLinks.style.right = "-200px";
+    navbar.style.right = "-500px";
 }
 
 function showMenu() {
-    navLinks.style.right = "0";
+    navbar.style.right = "0";
 }
 
 let emailInput = document.getElementById("emailInput");
@@ -12,7 +12,11 @@ let subscribeBtn = document.getElementById("subscribeNow");
 
 function ChangeEmailPosition() {
     subscribeBtn.style.display = "block";
-    subscribeBtn.style.fontSize = "0.5rem";
+    if (subscribeBtn.style.minWidth > 284 && subscribeBtn.style.maxWidth < 691) {
+        subscribeBtn.style.fontSize = "0.5rem";
+    } else {
+        subscribeBtn.style.fontSize = "0.8rem";
+    }
     subscribeBtn.style.marginLeft = "-2rem";
     emailInput.style.borderBottomLeftRadius = "0.1rem";
     emailInput.style.borderTopRightRadius = "0.1rem";

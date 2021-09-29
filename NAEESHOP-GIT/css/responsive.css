@@ -149,27 +149,23 @@
   .standard a input[type="button"] {
     padding-top: 1rem;
   }
-  /* categories ad */
-  div.row
-    div.carousel.slide
-    div.carousel-inner
-    div.carousel-item.active
-    img.img {
-    height: 100%;
-    /* width: 100%; */
-    border-radius: 2rem;
-    object-fit: contain;
-  }
-/* footer */
-div#footer-nav center input[type="email"] {
-  /* background-color: #fff;  */
-  padding: 0.6rem 1rem;
-  border-radius: 2.5rem;
-  text-align: center;
-  outline: none;
-  color: var(--Grayish-Blue);
-}
 
+  /* footer */
+  div#footer-nav center input[type="email"] {
+    /* background-color: #fff;  */
+    padding: 0.6rem 1rem;
+    border-radius: 2.5rem;
+    text-align: center;
+    outline: none;
+    color: var(--Grayish-Blue);
+  }
+  section.logininfopage div.row div#removeflex {
+    flex-direction: column;
+  }
+  .signupbarber-button, .signupcoustmer-button {
+    font-size: 0.5rem;
+    padding: 0.5rem 1rem;
+  }
 }
 @media screen and (min-width: 284px) and (max-width: 502px) {
   #register {
