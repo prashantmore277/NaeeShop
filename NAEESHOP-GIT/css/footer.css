@@ -73,6 +73,7 @@ nav ul.menu {
 
 nav ul.menu li {
   display: flex;
+  
 }
 
 nav ul.menu li a {
@@ -99,9 +100,7 @@ div.connect-with-us p a {
 div.connect-with-us p a img {
   margin: 1rem 1rem -2rem 0rem;
 }
-/* div.connect-with-us {
-  margin: auto auto auto 0rem;
-} */
+
 div.connect-with-us p a:hover {
   padding-top: 1em;
   cursor: pointer;
