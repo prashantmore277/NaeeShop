@@ -6,7 +6,7 @@
 
 # Pre-requisite to run on local host.
 1) Install VS Code in your system.
-2) Just Clone and fork the repository from my github handle -> # https://github.com/the-iconic-rihan
+2) Just Clone and fork the repository from my github handle
 3) Boom ! You are done 
 4) Contribute as much as possible to make this web-app more user interactive and increase the user experience from your end and become the part of this get startup.
 
